@@ -1,6 +1,6 @@
 {
     "TOKEN": "BOT TOKEN",
-    "DEFAULT_PREFIX": ".",
+    "DEFAULT_PREFIX": "-",
     "MONGODB_URI": "MONGODB URI",
     "SPOTIFY_API_CONFIG": {
         "clientId": "LEAVE THIS BLANK IF YOU DON'T HAVE IT",
