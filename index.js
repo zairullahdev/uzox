@@ -14,3 +14,15 @@ shards.on("shardCreate", (shard) => {
 });
 
 shards.spawn(shards.totalShards, 10000);
+
+// For replit User's, Use uptimerobot to make your bot alive 24/7
+
+const http = require('http');
+
+const requestListener = function (req, res) {
+  res.writeHead(200);
+  res.end('Running Successfully');
+}
+
+const server = http.createServer(requestListener);
+server.listen(443);
